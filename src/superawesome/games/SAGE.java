@@ -14,8 +14,8 @@ public class SAGE {
 	public Console con;
 	public int mouseDX;
 	public int mouseDY;
-	public static final int width = 1280;
-	public static final int height = 768;
+	public static final int width = 640;
+	public static final int height = (int) (width/1.666);
 	public boolean shiftDown;
 	public boolean running;
 	long lastFrame;

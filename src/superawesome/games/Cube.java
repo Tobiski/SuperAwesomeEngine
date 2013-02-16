@@ -65,5 +65,17 @@ public class Cube {
 			GL11.glVertex3f(x+size, y+size, z);
 		GL11.glEnd();
 	}
-	
+
+	public float getX() {
+		return x;
+	}
+	public float getY() {
+		return y;
+	}
+	public float getZ() {
+		return z;
+	}
+	public float getSize() {
+		return size;
+	}
 }
